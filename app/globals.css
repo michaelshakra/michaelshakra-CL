@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Globale Basisstile */
 body {
-  font-family: theme('fontFamily.sans');
-  background-color: theme('colors.emea.light');
-  color: theme('colors.emea.dark');
+  @apply font-sans bg-emea-light text-emea-dark;
 }
